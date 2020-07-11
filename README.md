@@ -1,4 +1,4 @@
-# Playing with Smart Contracts using Ethers.js
+# Smart Contracts using Ethers.js
 Use the ethers.js library to interact with a smart contract deployed on the Ethereum Ropsten Testnet. First compile a contract, deploy it and finally invoke some of the contract’s functions once it’s deployed.
 
 ## Compiling a Smart Contract
