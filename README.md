@@ -32,6 +32,13 @@ Save a reference to the ABI for later use:
 const abi = compiledContract.interface;
 ```
 
+### Compile Contract
+To compile the contract (_2 Options_):
+* Follow tips at `ethers-abi-bytecode.js`
+* Use this command:
+```sh
+$ --bin --abi ArrayOfFacts.sol
+```
 ## Deploy a Smart Contract
 Now that we have compiled our ArrayOfFacts.sol smart contract, it is time to deploy it on the Ropsten Testnet. For the example of the exercise, we will take one private key from MetaMask and use it to sign the deployment transaction.
  
