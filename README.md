@@ -25,7 +25,7 @@ After we have installed our dependencies, create a JavaScript file called `ether
 
 Now, we will create a simple smart contract called ArrayOfFacts.sol which will store an array of strings called facts in the blockchain. `Only the owner` of the contract can `add facts` but anyone should be able to get a `count` of how many facts there are and retrieve a specific fact by `index`.<br />
 Now that we have written the smart contract, we will create a function in _ethers-workflow.js_ which reads a file and returns its content.<br />
-Let’s now create a function to compile the smart contract: we will create a function called compileContract which takes two parameters: the file name and the contract name. It will return an output of the compiled contract.
+Let’s now create a function to compile the smart contract: we will create a function called `compileContract` which takes two parameters: the file name and the contract name. It will return an output of the compiled contract.
 
 Save a reference to the ABI for later use:
 ```js
